@@ -1,0 +1,101 @@
+
+    //Troceo el id para tener dos iguales
+    var y = document.getElementsByClassName('aditem-footer')[ide].id;
+    var str = y.slice(2, 11);
+    var stt = str+'.htm';
+    console.log(stt);
+
+    var rere = enlace.length;
+    var e=rere-13;
+    var a = enlace.slice(e, rere);
+
+    console.log(a);
+
+
+
+
+
+
+    /*
+var x = document.getElementsByClassName("aditem");
+  x[6].innerHTML = "Hello World!";
+
+  
+var element = document.querySelector('div.aditem.nth-child(2)');
+console.log(element);
+element.parentElement.removeChild(element);
+
+for (var i = 0; i < localStorage.length; i++) { //Seleccion solo por numeros, evitando basurilla de milanuncios
+  
+    console.log(localStorage.getItem(i));  
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+/*
+for (var i = 0; i < localStorage.length; i++) { //Seleccion solo por numeros, evitando basurilla de milanuncios
+    var key   = localStorage.key(i);
+    if(key.match(/^[0-9]+$/) != null){
+        if(localStorage.getItem(i)!=null){
+            console.log(key);
+            console.log(localStorage.getItem(i));  
+        }
+        
+    }
+}*/
+
+    /*
+
+    
+    
+    var z=document.getElementsByTagName('a')[ide].outerHTML;
+    str = y.slice(2, 10);
+
+    
+    //console.log(str);
+    //console.log(html);
+    //console.log(z.length);
+    //console.log(z);
+    var estado=0;
+    
+    var inicio=0,final=0;
+
+    for(var q=1; q < html.length ; q++){
+        var res = str.substring(q-1, q);
+        
+        // Creación de la petición HTTP
+    var req = new XMLHttpRequest();
+    // Petición HTTP GET síncrona hacia el archivo fotos.json del servidor
+    req.open('get', 'http://127.0.0.1:8000/inserta/'+str, true);
+    req.addEventListener('load', function() {
+        // Muestra la respuesta recibida
+        console.log(req.responseText);
+    })
+    
+    // Envío de la petición
+    req.send(null);
+*/
+
+/*var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = 'functions.js';    
+
+document.getElementsByTagName('head')[0].appendChild(script);
+var s = document.createElement('script');
+TODO: add "script.js" to web_accessible_resources in manifest.json
+s.src = chrome.runtime.getURL('functions.js');
+var str = y;
+str = str.slice(2, 10);
+console.log(y);
+console.log(str);
+var y = document.getElementsByClassName("aditem-footer")[0].id;
+*/
+
