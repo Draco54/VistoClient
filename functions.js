@@ -38,3 +38,8 @@ function clickeado(ide){
         localStorage.setItem(almacen.length, enlace);
     }
 }
+
+
+
+
+
